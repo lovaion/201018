@@ -29,6 +29,9 @@ public class MyMathTest {
         assertEquals(Arrays.asList(2,3,5,7,11,13,17,19), math.numeriPrimi(19));
         //controllo che funzioni il not equsls
         assertNotEquals(Arrays.asList(1,2,3), math.numeriPrimi(3));
+        // altro controllo
+        assertNotEquals(Arrays.asList(), math.numeriPrimi(9));
+
     }
 
 
