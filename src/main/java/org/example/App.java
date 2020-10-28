@@ -9,7 +9,7 @@ public class App
     public static void main( String[] args ){
 
         Math mymath = new Math();
-        System.out.println(mymath.numeriPrimi(997));
+        System.out.println(mymath.numeriPrimi(20));
     }
 
 
