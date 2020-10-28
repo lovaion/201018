@@ -1,0 +1,12 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\Cose Pesanti\University\III ANNO\ING. SOFTWARE\Esercizi di Ricca\201018 vero\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/target/
+.project
+.classpath
+.settings
