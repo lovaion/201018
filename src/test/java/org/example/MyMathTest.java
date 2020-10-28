@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 public class MyMathTest {
 
@@ -26,6 +27,8 @@ public class MyMathTest {
         assertEquals(Arrays.asList(2),math.numeriPrimi(2));
         // controllo che con input i numeri primi da 2 a 20 ci siano tutti
         assertEquals(Arrays.asList(2,3,5,7,11,13,17,19), math.numeriPrimi(19));
+        //controllo che funzioni il not equsls
+        assertNotEquals(Arrays.asList(1,2,3), math.numeriPrimi(3));
     }
 
 
